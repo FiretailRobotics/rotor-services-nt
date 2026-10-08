@@ -58,21 +58,6 @@ export function Capabilities({ onNavigate }: CapabilitiesProps) {
     },
   ];
 
-  const fleetData = [
-    {
-      model: 'Bell 206 JetRanger',
-      capacity: '4 passengers',
-      roles: 'Charter, Survey, Light Sling',
-      image: '/photos/aircraft-ready.webp',
-    },
-    {
-      model: 'Bell 206L LongRanger',
-      capacity: '6 passengers',
-      roles: 'Charter, Fire Support, Sling',
-      image: '/photos/longranger-field-new.webp',
-    },
-  ];
-
   const safetyCompliance = [
     'CASA Certified Air Operator Certificate (AOC)',
     'Pilot competency and recurrent training programs',
@@ -157,42 +142,11 @@ export function Capabilities({ onNavigate }: CapabilitiesProps) {
         </div>
       </Section>
 
-      <Section background="white">
-        <h2 className="text-3xl md:text-4xl text-center mb-12">Fleet Information</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto mb-12">
-          {fleetData.map((aircraft, idx) => (
-            <div key={idx} className="border border-territory-sand overflow-hidden">
-              <div className="bg-territory-red text-white p-4 text-center">
-                <h3 className="text-2xl font-bold">{aircraft.model}</h3>
-              </div>
-              <img
-              loading="lazy"
-              decoding="async"
-                src={aircraft.image}
-                alt={aircraft.model}
-                className="w-full h-64 object-cover"
-              />
-              <div className="p-6 space-y-3">
-                <div className="flex justify-between border-b border-territory-sand pb-2">
-                  <span className="font-bold">Capacity:</span>
-                  <span>{aircraft.capacity}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="font-bold">Primary Roles:</span>
-                  <span>{aircraft.roles}</span>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-        <div className="max-w-4xl mx-auto">
-          <h3 className="text-2xl mb-6">Fleet Readiness & Back-Up</h3>
-          <p className="text-lg leading-relaxed mb-4">
-            Rotor Services maintains two operational Bell 206 airframes (206B & 206L) with redundant availability for task continuity. Maintenance is performed by CASA-approved LAMEs with direct access to spares and component support.
-          </p>
-          <p className="text-lg leading-relaxed">
-            All operations are coordinated through Darwin HQ with rapid mobilisation to Katherine, Kununurra, Broome, and Mt Isa regions.
-          </p>
+      <Section background="offwhite">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl mb-6">Explore Our Fleet</h2>
+          <p className="text-lg leading-relaxed mb-8">Our Bell 206 JetRanger and LongRanger aircraft support charter, survey, fire support and sling operations. Explore passenger capacities, aircraft specifications and fleet readiness.</p>
+          <Button size="lg" onClick={() => onNavigate('fleet')}>View Fleet Information</Button>
         </div>
       </Section>
 
