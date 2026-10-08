@@ -15,7 +15,7 @@ export function Adam() {
         title="Experience Built in the Territory"
         height="standard"
         video="/adamhero.mp4"
-        image="/photos/sunset-aircraft.webp"
+        image="/photos/sunset-operations-new.webp"
       />
 
       <Section background="white">
@@ -65,7 +65,7 @@ export function Adam() {
             <img
               loading="lazy"
               decoding="async"
-              src="/photos/field-aircraft.webp"
+              src="/photos/ground-support-new.webp"
               alt="Helicopter at a remote operational site"
               className="w-full max-w-4xl rounded-lg shadow-lg border-4 border-territory-sand"
             />

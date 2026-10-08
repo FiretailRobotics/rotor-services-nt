@@ -93,7 +93,7 @@ export function Fleet({ onNavigate }: { onNavigate: (page: string) => void }) {
             <img
               loading="lazy"
               decoding="async"
-              src="/photos/remote-landing.webp"
+              src="/photos/remote-field-new.webp"
               alt="Bell 206 Helicopter Operations"
               className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
             />

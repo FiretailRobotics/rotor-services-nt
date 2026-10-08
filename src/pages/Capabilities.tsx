@@ -69,7 +69,7 @@ export function Capabilities({ onNavigate }: CapabilitiesProps) {
       model: 'Bell 206L LongRanger',
       capacity: '6 passengers',
       roles: 'Charter, Fire Support, Sling',
-      image: '/photos/red-helicopter.webp',
+      image: '/photos/longranger-field-new.webp',
     },
   ];
 
@@ -107,7 +107,7 @@ export function Capabilities({ onNavigate }: CapabilitiesProps) {
       <Hero
         title="Capabilities & Capability Statement"
         subtitle="Comprehensive helicopter operations and aerial services across Northern Australia. Delivering safe, efficient, and professional rotary-wing solutions to government, industry, and remote communities."
-        image="/photos/gorge-country.webp"
+        image="/photos/creek-operations-new.webp"
       >
         <a className="inline-flex items-center justify-center border-2 border-territory-red bg-territory-red px-8 py-4 text-lg font-medium text-white hover:bg-orange-700" href="/Rotor-Services-Capability-Statement.pdf" download>Download Capability Statement</a>
         <Button variant="light" size="lg" onClick={() => onNavigate('contact')}>Request a Quote</Button>
@@ -133,7 +133,7 @@ export function Capabilities({ onNavigate }: CapabilitiesProps) {
             <img
               loading="lazy"
               decoding="async"
-              src="/photos/remote-field.webp"
+              src="/photos/remote-field-new.webp"
               alt="Helicopter at a remote field landing site"
               className="w-full h-auto rounded-lg shadow-lg"
             />
@@ -294,7 +294,7 @@ export function Capabilities({ onNavigate }: CapabilitiesProps) {
               <img
               loading="lazy"
               decoding="async"
-                src="/photos/ground-support.webp"
+                src="/photos/ground-support-new.webp"
                 alt="Helicopter prepared for ground support operations"
                 className="w-full h-96 object-cover"
               />

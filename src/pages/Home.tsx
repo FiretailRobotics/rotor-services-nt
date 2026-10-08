@@ -88,8 +88,8 @@ export function Home({ onNavigate }: HomeProps) {
 
       <PhotoGallery title="At Work Across Northern Australia" intro="Remote coastlines, rugged country and practical helicopter support — a selection of Rotor Services operations." items={[
         { src: '/photos/coastal-operations.webp', alt: 'Helicopter on a coastal landing area beneath a shady tree', title: 'Coastal Access' },
-        { src: '/photos/gorge-country.webp', alt: 'Helicopter beside water between sandstone gorge walls', title: 'Remote Country' },
-        { src: '/photos/sunset-aircraft.webp', alt: 'Red helicopter on the ground in warm sunset light', title: 'Territory Operations' },
+        { src: '/photos/creek-operations-new.webp', alt: 'Red helicopter at a remote creek landing site', title: 'Remote Country' },
+        { src: '/photos/sunset-operations-new.webp', alt: 'Helicopter lifting off at sunset during field operations', title: 'Territory Operations' },
       ]} />
       <Section background="sand">
         <div className="max-w-4xl mx-auto text-center">
